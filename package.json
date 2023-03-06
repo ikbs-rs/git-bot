@@ -2,10 +2,27 @@
   "name": "git-bot",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
+  "dependencies": {
+    "graceful-fs": "^4.2.10",
+    "jsonfile": "^6.1.0",
+    "moment": "^2.29.4",
+    "random": "^4.1.0",
+    "simple-git": "^3.16.0",
+    "universalify": "^2.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikbs-rs/git-bot.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikbs-rs/git-bot/issues"
+  },
+  "homepage": "https://github.com/ikbs-rs/git-bot#readme"
 }
